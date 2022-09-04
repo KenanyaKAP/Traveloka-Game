@@ -1,0 +1,41 @@
+html{
+    height: 100%
+}
+body{
+    overflow: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#6BCAE2,#003F7D);
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin: 40px 10px 20px 10px;
+    vertical-align: middle;
+    max-height: 300px;
+    max-width: 500px;
+}
+#Title-img{
+    max-height: 400px;
+    max-width: 600px;
+}
+
+.Stage-List{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+}
+
+.Stage-List img{
+    vertical-align: middle;
+    max-width: 200px;
+    max-height: 100px;
+}

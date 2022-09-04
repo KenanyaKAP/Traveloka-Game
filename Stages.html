@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style_2.css">
+    <title>Stage List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <img src="img/Stage-List-Header.png"  id="Title-img"alt="Title" width="100%" height="100%">
+        </div>
+        <div class="Stage-List">
+                <img src="img/Yogyakarta_btt.png">
+                <img src="img/Bali_btt.png">
+                <img src="img/Padang_btt.png">
+                <img src="img/TanaToraja_btt.png">
+                <img src="img/RajaAmpat_btt.png">
+        </div>
+    </div>
+    <script>
+        const buttons = document.querySelectorAll('.Stage-List img');
+        for(let i=0; i<buttons.length; i++) {
+            buttons[i].addEventListener('click', () => {
+                if(i == 0)window.location.href = "Yogyakarta.html";
+                if(i == 1)window.location.href = "Bali.html";
+                if(i == 2)window.location.href = "Padang.html";
+                if(i == 3)window.location.href = "TanaToraja.html";
+                if(i == 4)window.location.href = "RajaAmpat.html";
+                console.log(`clicked ${i}`);
+            });
+        }
+    </script>
+</body>
+</html>

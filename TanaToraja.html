@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+        @font-face{
+            font-family: pixelboy;
+            src: url("font/Pixeboy-z8XGD.ttf");
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: pixelboy;
+        }
+        #canvas1{
+            font-family: pixelboy;
+        }
+        #lose{
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            justify-content: center;
+            display: none;
+            align-items: center;
+            vertical-align: middle;
+        }
+        #lose img{
+            position:absolute;
+            max-width: 300px;
+            max-height: 300px;
+        }
+        #button{
+            height: 100px;
+            margin-top: 200px;
+        }
+        #lose #button{
+            align-items: center;
+            justify-content: center;
+        }
+        #button img{
+            position: relative;
+            max-width: 100px;
+            max-height: 60px;
+        }
+        h1{
+        color: white;
+        position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <div id="lose">
+        <img src="img/losePanel.png">
+        <h1>0</h1>
+        <div id="button">
+            <img src="img/Restart_Button.png">
+            <img src="img/Back_Button.png">
+        </div>
+    </div>
+    <script src="script4.js"></script>
+</body>
+</html>

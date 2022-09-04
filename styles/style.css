@@ -1,0 +1,54 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    overflow: auto;
+    background-image: -webkit-linear-gradient(#6BCAE2,#003F7D);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+#Trident-Logo{
+    height: 50px;
+    width: 50px;
+    float: right;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 20px;
+    min-height: 20px;
+    margin-bottom: 10px;
+    padding-right:1em;
+}
+
+.title{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    max-width: 500px;
+    max-height: 250px;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* .button::h{
+
+} */
+.button{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    max-height: 250px;
+}
